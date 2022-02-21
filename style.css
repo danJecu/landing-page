@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #1F2937;
+  height: 50px;
+  padding: 0 45px 50px;
+}
+
+.navbar-link {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #E5E7EB;
+}
+
+.navbar-link:hover{
+  color: lightseagreen;
+}
+
+.navbar-logo {
+  padding-left: 10px;
+  flex-grow: 1;
+  font-size: 15px;
+  color: #F9FAF8;
+}
+
+.title-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  padding: 0 50px 90px 50px;
+
+}
+
+.title-1 {
+padding: 0px 15px 0px 0px;
+}
+
+.title-1 button{
+  border-radius: 5px;
+  width: 130px;
+  height: 35px;
+  font-size: 15px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border: 0px;
+  font-weight: 600;
+
+}
+
+.title-1 button:hover {
+  background-color: #E5E7EB;
+  color:#3882F6;
+}
+
+.title-2 img {
+
+  width: 300px;
+  height: 300px;
+}
+
+.main-frames {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.main-frames img {
+  padding-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+
+  padding-right: 20px;
+}
+
+.main-description {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  padding-right: 20px;
+}
+
+.sign-up {
+  display: flex;
+  margin: 50px auto 60px auto;
+  padding: 50px 50px 50px 50px;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  justify-content: center;
+  width: 650px;
+  border-radius: 10px;
+}
+
+.sign-up button {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+}
